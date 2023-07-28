@@ -1,4 +1,4 @@
-const getElement = (selectiom) => {
+const getElement = (selection) => {
 
     const element = document.querySelector(selection);
 
