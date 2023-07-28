@@ -325,7 +325,8 @@ Stripe Styles
 
 @media screen and (min-width: 1400px) {
     .hero-center {
-        padding-bottom: 20vh;
+        /* padding-bottom: 20vh; */
+        padding-top: 20vh;
     }
 
     .phone-img {
