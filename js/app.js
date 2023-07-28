@@ -1,1 +1,3 @@
-console.log(`hello`);
+import sublinks from './data.js';
+
+console.log(sublinks);
