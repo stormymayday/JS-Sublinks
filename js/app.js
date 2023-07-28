@@ -8,4 +8,5 @@ const sidebarLinksContainer = getElement('.sidebar-links');
 const linkBtns = [...document.querySelectorAll('.link-btn')];
 const subMenu = getElement('.submenu');
 const hero = getElement('.hero');
+const navbar = getElement('.nav');
 // console.log(sidebarLinks);
