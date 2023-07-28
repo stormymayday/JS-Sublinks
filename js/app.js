@@ -16,3 +16,10 @@ toggleBtn.addEventListener('click', () => {
     sidebarWrapper.classList.add('show');
 
 });
+
+// Close Sidebar Functionality
+closeBtn.addEventListener('click', () => {
+
+    sidebarWrapper.classList.remove('show');
+
+});
