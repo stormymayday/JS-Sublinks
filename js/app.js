@@ -54,7 +54,9 @@ linkBtns.forEach((btn) => {
 
         // Getting the textContent of the current target
         const text = e.currentTarget.textContent;
-        console.log(text);
+
+        const tempBtn = e.currentTarget.getBoundingClientRect();
+        console.log(tempBtn);
 
         subMenu.classList.add('show');
 
