@@ -54,6 +54,8 @@ linkBtns.forEach((btn) => {
 
         console.log(e.currentTarget);
 
+        subMenu.classList.add('show');
+
     });
 
 });
