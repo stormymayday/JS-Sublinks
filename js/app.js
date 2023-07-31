@@ -47,3 +47,13 @@ sidebarLinksContainer.innerHTML = sublinks.map((item) => {
     </article>`;
 
 }).join('');
+
+linkBtns.forEach((btn) => {
+
+    btn.addEventListener('mouseover', function (e) {
+
+        console.log(e.currentTarget);
+
+    });
+
+});
