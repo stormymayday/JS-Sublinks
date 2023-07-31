@@ -56,7 +56,9 @@ linkBtns.forEach((btn) => {
         const text = e.currentTarget.textContent;
 
         const tempBtn = e.currentTarget.getBoundingClientRect();
-        console.log(tempBtn);
+
+        const bottom = tempBtn.bottom - 3;
+        console.log(bottom);
 
         subMenu.classList.add('show');
 
