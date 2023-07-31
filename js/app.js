@@ -57,8 +57,11 @@ linkBtns.forEach((btn) => {
 
         const tempBtn = e.currentTarget.getBoundingClientRect();
 
+        const center = (tempBtn.left + tempBtn.right) / 2;
+        console.log(center);
+
         const bottom = tempBtn.bottom - 3;
-        console.log(bottom);
+
 
         subMenu.classList.add('show');
 
