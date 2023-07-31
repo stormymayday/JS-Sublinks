@@ -52,7 +52,9 @@ linkBtns.forEach((btn) => {
 
     btn.addEventListener('mouseover', function (e) {
 
-        console.log(e.currentTarget);
+        // Getting the textContent of the current target
+        const text = e.currentTarget.textContent;
+        console.log(text);
 
         subMenu.classList.add('show');
 
