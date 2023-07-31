@@ -58,12 +58,13 @@ linkBtns.forEach((btn) => {
         const tempBtn = e.currentTarget.getBoundingClientRect();
 
         const center = (tempBtn.left + tempBtn.right) / 2;
-        console.log(center);
 
         const bottom = tempBtn.bottom - 3;
 
-
         subMenu.classList.add('show');
+
+        subMenu.style.left = `${center}px`;
+        subMenu.style.top = `${bottom}px`;
 
     });
 
