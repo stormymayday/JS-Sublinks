@@ -71,6 +71,8 @@ linkBtns.forEach((btn) => {
         // Checking if tempPage exists
         if (tempPage) {
 
+            const { page, links } = tempPage;
+
             subMenu.classList.add('show');
             subMenu.style.left = `${center}px`;
             subMenu.style.top = `${bottom}px`;
