@@ -77,6 +77,14 @@ linkBtns.forEach((btn) => {
             subMenu.style.left = `${center}px`;
             subMenu.style.top = `${bottom}px`;
 
+            subMenu.innerHTML = `
+            <section>
+            
+                <h4>${page}</h4>
+            
+            </section>
+            `;
+
         }
 
     });
