@@ -61,6 +61,15 @@ linkBtns.forEach((btn) => {
 
         const bottom = tempBtn.bottom - 3;
 
+        // Looking for the page that matches the text
+        const tempPage = sublinks.find(({ page }) => {
+
+            return page === text;
+
+        });
+
+        console.log(tempPage);
+
         subMenu.classList.add('show');
 
         subMenu.style.left = `${center}px`;
