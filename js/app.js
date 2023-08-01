@@ -68,12 +68,14 @@ linkBtns.forEach((btn) => {
 
         });
 
-        console.log(tempPage);
+        // Checking if tempPage exists
+        if (tempPage) {
 
-        subMenu.classList.add('show');
+            subMenu.classList.add('show');
+            subMenu.style.left = `${center}px`;
+            subMenu.style.top = `${bottom}px`;
 
-        subMenu.style.left = `${center}px`;
-        subMenu.style.top = `${bottom}px`;
+        }
 
     });
 
