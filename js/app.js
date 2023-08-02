@@ -102,3 +102,10 @@ linkBtns.forEach((btn) => {
     });
 
 });
+
+// Hiding the Sublinks when hovering over the '.hero' section
+hero.addEventListener('mouseover', function (e) {
+
+    subMenu.classList.remove('show');
+
+});
