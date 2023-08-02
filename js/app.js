@@ -109,3 +109,15 @@ hero.addEventListener('mouseover', function (e) {
     subMenu.classList.remove('show');
 
 });
+
+// Hiding the Sublinks when hovering over the '.nav'
+navbar.addEventListener('mouseover', function (e) {
+
+    // Unless it is a '.link-btn'
+    if (!e.target.classList.contains('link-btn')) {
+
+        subMenu.classList.remove('show');
+
+    }
+
+});
