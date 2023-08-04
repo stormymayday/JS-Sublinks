@@ -77,11 +77,15 @@ linkBtns.forEach((btn) => {
             subMenu.style.left = `${center}px`;
             subMenu.style.top = `${bottom}px`;
 
-            // OPTIONAL - Column Layout
+            // Column Layout
             let columns = 'col-2';
             // Three column layout
             if (links.length === 3) {
                 columns = 'col-3';
+            }
+            // Four column layout
+            if (links.length === 4) {
+                columns = 'col-4';
             }
 
             subMenu.innerHTML = `
