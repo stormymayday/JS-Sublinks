@@ -84,7 +84,7 @@ linkBtns.forEach((btn) => {
                 columns = 'col-3';
             }
             // Four column layout
-            if (links.length === 4) {
+            if (links.length >= 4) {
                 columns = 'col-4';
             }
 
