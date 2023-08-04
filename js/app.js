@@ -77,12 +77,19 @@ linkBtns.forEach((btn) => {
             subMenu.style.left = `${center}px`;
             subMenu.style.top = `${bottom}px`;
 
+            // OPTIONAL - Column Layout
+            let columns = 'col-2';
+            // Three column layout
+            if (links.length === 3) {
+                columns = 'col-3';
+            }
+
             subMenu.innerHTML = `
             <section>
             
                 <h4>${page}</h4>
 
-                <div class="submenu-center col-2">
+                <div class="submenu-center ${columns}">
 
             ${links.map((link) => {
 
